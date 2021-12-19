@@ -10,38 +10,55 @@
 </head>
 
 <body>
-    <header>
-        <nav id="menu-navegacao">
-            <ul>
-                <li>INÍCIO</li>
-                <li>MENU</li>
-                <li>PRODUTOS</li>
-                <li>SOBRE</li>
-            </ul>
-        </nav>
-    </header>
-    <div id="texto-introdutorio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt recusandae dolore
-        pariatur omnis voluptatibus natus, sequi similique ducimus? Nemo iste nostrum doloribus velit error minima ut
-        dicta nihil aperiam?</div>
-    <picture id="fotos-pagina-inicial">
-        <img src="#" alt="Mulher negra com semblante alegre e surpreso apontando para um celular">
-        <img src="#" alt="Homem negro com semblante alegre segurando celular com as duas mãos.">
-    </picture>
-    <form action="#">
-        <label for="nome"><input id="nome" type="text" placeholder="Nome" required></label>
-        <br>
-        <label for="email"><input id="email" type="email" placeholder="e-mail" required></label>
-        <br>
-        <label for="senha"><input id="senha" type="password" placeholder="Senha" required></label>
-        <br>
-        <button type="submit">ENVIAR</button>
-    </form>
-    <div id="botoes-auxiliares">
-        <button type="submit">JÁ TENHO CONTA</button>
-        <button type="submit">REENVIAR E-MAIL</button>
-    </div>
+    <section id="secao-esquerda">
+        <h1>TÍTULO</h1>
+        <picture id="fotos-pagina-inicial">
+            <img id="foto-mulher" src="#" alt="Mulher negra com semblante alegre e surpreso apontando para um celular">
+            <img id="foto-homem" src="#" alt="Homem negro com semblante alegre segurando celular com as duas mãos.">
+        </picture>
+    </section>
+    <section id="secao-direita">
+        <header>
+            <nav id="menu-navegacao">
+                <ul>
+                    <li>INÍCIO</li>
+                    <li>MENU</li>
+                    <li>PRODUTOS</li>
+                    <li>SOBRE</li>
+                </ul>
+            </nav>
+        </header>
+        <section id="texto-introdutorio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt recusandae
+            dolore
+            pariatur omnis voluptatibus natus, sequi similique ducimus? Nemo iste nostrum doloribus velit error minima
+            ut
+            dicta nihil aperiam?</section>
+        <form action="#">
+            <fieldset id="dados-cadastrais">
+                <label for="nome"><input id="nome" type="text" placeholder="Nome" required></label>
+                <br>
+                <label for="email"><input id="email" type="email" placeholder="e-mail" required></label>
+                <br>
+                <label for="senha"><input id="senha" type="password" placeholder="Senha" required></label>
+                <br>
+                <label for="confirmar-senha"><input id="confirmar-senha" type="password" placeholder="Confirmar senha"
+                        required></label>
+                <br>
+                <button type="submit">ENVIAR</button>
+            </fieldset>
+        </form>
+        <div id="botoes-auxiliares">
+            <button type="submit">JÁ TENHO CONTA</button>
+            <button type="submit">REENVIAR E-MAIL</button>
+        </div>
 
-    <script src="scripts/script.js" type="module"></script>
+        <script src="scripts/script.js" type="module"></script>
+        <footer>
+            <picture id="logotipo">
+                <img id="logo" src="#" alt="Logotipo">
+            </picture>
+        </footer>
+    </section>
 </body>
 
 </html>
