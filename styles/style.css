@@ -1,0 +1,9 @@
+#secao-esquerda {
+    border: 2px solid black;
+    left: 50px;
+}
+
+#secao-direita {
+    border: 2px solid black;
+    right: 0px;
+}
