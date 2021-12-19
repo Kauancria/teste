@@ -1,5 +1,7 @@
-# Agora VAI!!
+# Projeto teste
 
-## Modificação após pull request
+Um simples projeto para aprender a manipulação de arquivos no github.
+Primeiro projeto em equipe.
 
-### opa
+## Design
+![full page design](assets/images/full_page.jpeg)
