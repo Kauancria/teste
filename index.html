@@ -5,60 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>Site</title>
 </head>
 
 <body>
-    <section id="secao-esquerda">
-        <h1>TÍTULO</h1>
-        <picture id="fotos-pagina-inicial">
-            <img id="foto-mulher" src="#" alt="Mulher negra com semblante alegre e surpreso apontando para um celular">
-            <img id="foto-homem" src="#" alt="Homem negro com semblante alegre segurando celular com as duas mãos.">
-        </picture>
-    </section>
-    <section id="secao-direita">
-        <header>
-            <nav id="menu-navegacao">
-                <ul>
-                    <li>INÍCIO</li>
-                    <li>MENU</li>
-                    <li>PRODUTOS</li>
-                    <li>SOBRE</li>
-                </ul>
-            </nav>
-        </header>
-        <section id="texto-introdutorio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt recusandae
-            dolore
-            pariatur omnis voluptatibus natus, sequi similique ducimus? Nemo iste nostrum doloribus velit error minima
-            ut
-            dicta nihil aperiam?</section>
-        <form action="#">
-            <fieldset id="dados-cadastrais">
-                <label for="nome"><input id="nome" type="text" placeholder="Nome" required></label>
-                <br>
-                <label for="email"><input id="email" type="email" placeholder="e-mail" required></label>
-                <br>
-                <label for="senha"><input id="senha" type="password" placeholder="Senha" required></label>
-                <br>
-                <label for="confirmar-senha"><input id="confirmar-senha" type="password" placeholder="Confirmar senha"
-                        required></label>
-                <br>
-                <button type="submit">ENVIAR</button>
-            </fieldset>
-        </form>
-        <div id="botoes-auxiliares">
-            <button type="submit">JÁ TENHO CONTA</button>
-            <button type="submit">REENVIAR E-MAIL</button>
-        </div>
 
-        <script src="scripts/script.js" type="module"></script>
-        <footer>
-            <picture id="logotipo">
-                <img id="logo" src="#" alt="Logotipo">
-            </picture>
-        </footer>
-    </section>
+    <header>
+        <nav id="menu-navegacao">
+            <ul>
+                <li><a href="#">ÍNICIO</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">PRODUTOS</a></li>
+                <li><a href="#">SOBRE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="texto-introdutorio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt recusandae dolore
+        pariatur omnis voluptatibus natus, sequi similique ducimus? Nemo iste nostrum doloribus velit error minima ut
+        dicta nihil aperiam?
+    </div>
+        
+    <picture id="fotos-pagina-inicial">
+        <img src="assets/images/_mulherNegra.png" alt="Mulher negra com semblante alegre e surpreso apontando para um celular">
+        <img src="assets/images/_homemNegro.png" alt="Homem negro com semblante alegre segurando celular com as duas mãos.">
+    </picture>
+
+    <form action="#">
+        <label for="nome"><input id="nome" type="text" placeholder="Nome" required></label>
+        <br>
+        <label for="email"><input id="email" type="email" placeholder="e-mail" required></label>
+        <br>
+        <label for="senha"><input id="senha" type="password" placeholder="Senha" required></label>
+        <br>
+        <button type="submit">ENVIAR</button>
+    </form>
+
+    <div id="botoes-auxiliares">
+        <button type="submit">JÁ TENHO CONTA</button>
+        <button type="submit">REENVIAR E-MAIL</button>
+    </div>
+
+    <script src="scripts/script.js" type="module"></script>
+
 </body>
 
 </html>

@@ -1,9 +1,32 @@
-#secao-esquerda {
-    border: 2px solid black;
-    left: 50px;
+body{
+    background-color: #cccccc;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0));
 }
 
-#secao-direita {
-    border: 2px solid black;
-    right: 0px;
+/* AQUI FICA O MENU DE NAVEGAÇÃO ESTILIZADO */
+
+#menu-navegacao{
+    text-align: right;
+}
+
+#menu-navegacao ul li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    position: relative;
+    display: inline;
+    padding-right: 10px;
+    text-align: right;
+}
+
+#menu-navegacao ul li a:hover ,:visited{
+    color:#045b75;
+}
+
+#menu-navegacao ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration:none;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
 }
